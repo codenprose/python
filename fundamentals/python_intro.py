@@ -48,3 +48,7 @@ print("Hello World" + 5)
 
 # Syntax Error - You've written some code incorrectly and Python can't understand it
 print("This print function isn't closed"
+
+# Input function
+# ----------------------
+age = input("What's your age? ")
