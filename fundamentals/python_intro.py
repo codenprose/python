@@ -5,29 +5,46 @@ print("Hello World")
 # ------------------------------------------------------------------------------
 
 # Variables - Containers for information
-name = "Daniel K. Hunter" # String
-age = 10 * 3 - 1 # Number
-dkh = { # Dictonary
+
+# String
+name = "Daniel K. Hunter"
+
+# Number
+age = 10 * 3 - 1
+
+# Dictionary
+dkh = { 
     'name': name,
     'age': age
 }
-my_list = [name, age, dkh] # List
+
+# List
+my_list = [name, age, dkh]
 
 # Numbers
+
 # Division always returns a float
 8 / 2 # = 4.0
 
 # Strings
+
+# Interpolation
 "Status Message: you currently have {} vistors on {}".format(90, "danielkhunter.com")
 # "Status Message: you current have 90 visitors on danielkhunter.com"
 
 "=" * 35 # ==================================
+
 "hello world".split() # ["hello", "world"]
+
 ":".join(['nfl', 'nba', 'mlb']) # "nfl:nba:mlb"
-"My favorite NBA players are: {}".format(", ".join(['Lebron James', 'Russell Westbrook', 'Kevin Durant']))
-# "My favorite NBA players are Lebron James, Russell Westbrook, Kevin Durant"
+
+"Favorite NBA players: {}".format(", ".join(['Lebron James', 'Russell Westbrook', 'Kevin Durant']))
+# "Favorite NBA players: Lebron James, Russell Westbrook, Kevin Durant"
 
 "Index Method".index("I") # returns first index match, 0
+
+# covert number to string
+str(3) # "3"
 
 # Lists
 primary = ['blue', 'red', 'yellow']
@@ -51,4 +68,5 @@ print("This print function isn't closed"
 
 # Input function
 # ----------------------
+# Capture user input from command line
 age = input("What's your age? ")
